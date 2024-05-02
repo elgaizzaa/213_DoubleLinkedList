@@ -12,3 +12,7 @@ struct node
  
  node* START = NULL;
 
+ void addNode(){
+   
+ }
+
