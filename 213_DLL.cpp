@@ -9,5 +9,6 @@ struct node
     node*next;
     node*prev;
 };
-
+ 
+ node* START = NULL;
 
