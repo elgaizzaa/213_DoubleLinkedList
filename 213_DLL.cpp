@@ -2,17 +2,18 @@
 #include <string>
 using namespace std;
 
-struct node
+struct Node
 {
     int noMhs;
     string name;
-    node*next;
-    node*prev;
+    Node*next;
+    Node*prev;
 };
  
- node* START = NULL;
+ Node* START = NULL;
 
  void addNode(){
+     Node* newNode = new Node(); //step 1:create a new node
    
  }
 
