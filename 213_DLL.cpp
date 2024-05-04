@@ -183,3 +183,9 @@ void searchData()
         cout << "\nNae: " << curr -> name << endl;
     }
 }
+
+
+int main()
+{
+
+}
