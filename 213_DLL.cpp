@@ -119,3 +119,7 @@ struct Node
      delete current;
     cout << "\x1b[32mRecord with the roll number" << rollNo << " deleted\x1b[0m" << endl;
 }
+     bool listEmpty()
+{
+    return (START == NULL);
+}
