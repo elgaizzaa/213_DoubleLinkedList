@@ -90,4 +90,14 @@ struct Node
     }
      current = START;
     previous = NULL;
+     while(current != NULL && current -> noMhs != rollNo)
+    {
+        previous = current;
+        current = current -> next;
+    }
+    if(current == NULL)
+    {
+        cout << "\033[31mThe e=record with thw roll number"<< rollNo << "not found\033[0m" << endl;
+        return;
+    }
 }
