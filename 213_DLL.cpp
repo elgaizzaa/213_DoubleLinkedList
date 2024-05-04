@@ -56,6 +56,9 @@ struct Node
             previous -> next = newNode;
         }
 
-        
+        else
+        {
+            START = newNode;
+        } 
     }
  };
