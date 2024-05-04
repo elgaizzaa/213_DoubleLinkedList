@@ -88,4 +88,6 @@ struct Node
         cout << "List is empty" << endl;
         return;
     }
+     current = START;
+    previous = NULL;
 }
