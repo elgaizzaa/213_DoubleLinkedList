@@ -74,7 +74,10 @@ struct Node
     }
       return (*current != NULL);
 }
+
      void deleteNode()
 {
+         Node *previous, *current;
+         int rollNo;
 
 }
