@@ -74,3 +74,7 @@ struct Node
     }
       return (*current != NULL);
 }
+     void deleteNode()
+{
+
+}
